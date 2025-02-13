@@ -319,7 +319,7 @@ const TabiWilsonPortfolio = () => {
                                     the same: to create timeless images that tell your unique story.
                                 </p>
                                 <p>
-                                    Based in [Location], I work with clients worldwide, bringing
+                                    Based in Spain, I work with clients worldwide, bringing
                                     technical expertise and artistic vision to every project.
                                 </p>
                             </div>
