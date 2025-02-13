@@ -56,10 +56,28 @@ const TabiWilsonPortfolio = () => {
             description: 'Professional studio session'
         },
         {
+            category: 'portrait',
+            image: 'https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=800&q=80',
+            title: 'Natural Light Portraits',
+            description: 'Outdoor portrait session'
+        },
+        {
+            category: 'portrait',
+            image: 'https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&w=800&q=80',
+            title: 'Business Headshots',
+            description: 'Corporate portraiture'
+        },
+        {
             category: 'wedding',
-            image: 'https://images.unsplash.com/photo-1537633552985-df8429e8048b?auto=format&fit=crop&w=800&q=80',
+            image: 'https://images.unsplash.com/photo-1537633552985-df8429e048b?auto=format&fit=crop&w=800&q=80',
             title: 'Garden Wedding',
             description: 'Intimate ceremony photography'
+        },
+        {
+            category: 'wedding',
+            image: 'https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&w=800&q=80',
+            title: 'Beach Wedding',
+            description: 'Destination wedding coverage'
         },
         {
             category: 'commercial',
@@ -68,10 +86,22 @@ const TabiWilsonPortfolio = () => {
             description: 'Commercial brand shoot'
         },
         {
+            category: 'commercial',
+            image: 'https://images.unsplash.com/photo-1600880292203-757bb62b4baf?auto=format&fit=crop&w=800&q=80',
+            title: 'Food Photography',
+            description: 'Restaurant menu shoot'
+        },
+        {
             category: 'event',
             image: 'https://images.unsplash.com/photo-1511795409834-ef04bbd61622?auto=format&fit=crop&w=800&q=80',
             title: 'Corporate Event',
             description: 'Annual gala coverage'
+        },
+        {
+            category: 'event',
+            image: 'https://images.unsplash.com/photo-1505373877841-8d25f7d46678?auto=format&fit=crop&w=800&q=80',
+            title: 'Music Festival',
+            description: 'Live concert photography'
         }
     ];
 
@@ -405,7 +435,7 @@ const TabiWilsonPortfolio = () => {
                                 <div className={`space-y-2 ${
                                     isDarkMode ? 'text-gray-300' : 'text-gray-600'
                                 }`}>
-                                    <p>Email: tabitha@tabiwilsonphotography.com</p>
+                                    <p>Email: tabithawilson@gmail.com</p>
                                     <p>Studio: [Address]</p>
                                     <p>Phone: [Phone Number]</p>
                                 </div>
