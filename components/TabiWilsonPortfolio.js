@@ -102,7 +102,19 @@ const TabiWilsonPortfolio = () => {
             image: 'https://images.unsplash.com/photo-1505373877841-8d25f7d46678?auto=format&fit=crop&w=800&q=80',
             title: 'Music Festival',
             description: 'Live concert photography'
-        }
+        },
+        // Add more images here to reach at least 10 per category.  Example below:
+        { category: 'portrait', image: 'https://via.placeholder.com/800x600', title: 'Portrait 4', description: 'Placeholder' },
+        { category: 'portrait', image: 'https://via.placeholder.com/800x600', title: 'Portrait 5', description: 'Placeholder' },
+        { category: 'wedding', image: 'https://via.placeholder.com/800x600', title: 'Wedding 3', description: 'Placeholder' },
+        { category: 'wedding', image: 'https://via.placeholder.com/800x600', title: 'Wedding 4', description: 'Placeholder' },
+        { category: 'wedding', image: 'https://via.placeholder.com/800x600', title: 'Wedding 5', description: 'Placeholder' },
+        { category: 'commercial', image: 'https://via.placeholder.com/800x600', title: 'Commercial 3', description: 'Placeholder' },
+        { category: 'commercial', image: 'https://via.placeholder.com/800x600', title: 'Commercial 4', description: 'Placeholder' },
+        { category: 'event', image: 'https://via.placeholder.com/800x600', title: 'Event 3', description: 'Placeholder' },
+        { category: 'event', image: 'https://via.placeholder.com/800x600', title: 'Event 4', description: 'Placeholder' },
+        { category: 'event', image: 'https://via.placeholder.com/800x600', title: 'Event 5', description: 'Placeholder' }
+
     ];
 
     return (
@@ -142,7 +154,7 @@ const TabiWilsonPortfolio = () => {
                                     {item}
                                 </a>
                             ))}
-                            
+
                             {/* Theme Toggle Button */}
                             <button
                                 onClick={toggleTheme}
@@ -239,7 +251,7 @@ const TabiWilsonPortfolio = () => {
                     <h2 className={`text-4xl font-serif text-center mb-16 ${
                         isDarkMode ? 'text-white' : 'text-gray-900'
                     }`}>Portfolio</h2>
-                    
+
                     {/* Category Filters */}
                     <div className="flex flex-wrap justify-center gap-4 mb-12">
                         {portfolioCategories.map((category) => (
@@ -339,12 +351,12 @@ const TabiWilsonPortfolio = () => {
                             {
                                 title: 'Weddings',
                                 description: 'Full-day coverage with a second photographer, engagement session, and premium photo album',
-                                price: 'Starting at $3,500'
+                                price: 'Starting at €3,500'
                             },
                             {
                                 title: 'Portrait Sessions',
                                 description: 'Professional portrait sessions for individuals, families, and corporate clients',
-                                price: 'Starting at $500'
+                                price: 'Starting at €500'
                             },
                             {
                                 title: 'Commercial',
