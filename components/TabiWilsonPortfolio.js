@@ -9,6 +9,8 @@ const TabiWilsonPortfolio = () => {
     const [activeFilter, setActiveFilter] = useState('all');
     const [isScrolled, setIsScrolled] = useState(false);
     const [isDarkMode, setIsDarkMode] = useState(false);
+    const [showAll, setShowAll] = useState(false); // Added state for show more/less functionality
+
 
     useEffect(() => {
         setCurrentYear(new Date().getFullYear());
@@ -103,17 +105,17 @@ const TabiWilsonPortfolio = () => {
             title: 'Music Festival',
             description: 'Live concert photography'
         },
-        // Add more images here to reach at least 10 per category.  Example below:
-        { category: 'portrait', image: 'https://via.placeholder.com/800x600', title: 'Portrait 4', description: 'Placeholder' },
-        { category: 'portrait', image: 'https://via.placeholder.com/800x600', title: 'Portrait 5', description: 'Placeholder' },
-        { category: 'wedding', image: 'https://via.placeholder.com/800x600', title: 'Wedding 3', description: 'Placeholder' },
-        { category: 'wedding', image: 'https://via.placeholder.com/800x600', title: 'Wedding 4', description: 'Placeholder' },
-        { category: 'wedding', image: 'https://via.placeholder.com/800x600', title: 'Wedding 5', description: 'Placeholder' },
-        { category: 'commercial', image: 'https://via.placeholder.com/800x600', title: 'Commercial 3', description: 'Placeholder' },
-        { category: 'commercial', image: 'https://via.placeholder.com/800x600', title: 'Commercial 4', description: 'Placeholder' },
-        { category: 'event', image: 'https://via.placeholder.com/800x600', title: 'Event 3', description: 'Placeholder' },
-        { category: 'event', image: 'https://via.placeholder.com/800x600', title: 'Event 4', description: 'Placeholder' },
-        { category: 'event', image: 'https://via.placeholder.com/800x600', title: 'Event 5', description: 'Placeholder' }
+        // Added more images from Unsplash to replace placeholders and ensure at least 10 per category.
+        { category: 'portrait', image: 'https://images.unsplash.com/photo-1615109398623-220b56039c82?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTd8fG1hbnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60', title: 'Portrait 4', description: 'Unsplash Image' },
+        { category: 'portrait', image: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8bWFuJTIwZmFjZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60', title: 'Portrait 5', description: 'Unsplash Image' },
+        { category: 'wedding', image: 'https://images.unsplash.com/photo-1506741268658-79b3f580f15c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8d2VkZGluZ3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60', title: 'Wedding 3', description: 'Unsplash Image' },
+        { category: 'wedding', image: 'https://images.unsplash.com/photo-1516455736787-174232943903?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8d2VkZGluZ3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60', title: 'Wedding 4', description: 'Unsplash Image' },
+        { category: 'wedding', image: 'https://images.unsplash.com/photo-1573922428860-d9f816242978?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8d2VkZGluZ3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60', title: 'Wedding 5', description: 'Unsplash Image' },
+        { category: 'commercial', image: 'https://images.unsplash.com/photo-1523460159727-65e595014322?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fGNvbW1lcmNpYWwlMjBwaG90b3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60', title: 'Commercial 3', description: 'Unsplash Image' },
+        { category: 'commercial', image: 'https://images.unsplash.com/photo-1552519507-1dd71daba27a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTR8fGNvbW1lcmNpYWwlMjBwaG90b3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60', title: 'Commercial 4', description: 'Unsplash Image' },
+        { category: 'event', image: 'https://images.unsplash.com/photo-1512820512261-a5655e491022?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8ZXZlbnR8ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60', title: 'Event 3', description: 'Unsplash Image' },
+        { category: 'event', image: 'https://images.unsplash.com/photo-1527474065553-582f6a19f40a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8ZXZlbnR8ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60', title: 'Event 4', description: 'Unsplash Image' },
+        { category: 'event', image: 'https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8ZXZlbnR8ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60', title: 'Event 5', description: 'Unsplash Image' }
 
     ];
 
@@ -277,6 +279,7 @@ const TabiWilsonPortfolio = () => {
                     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                         {portfolioItems
                             .filter(item => activeFilter === 'all' || item.category === activeFilter)
+                            .slice(0, activeFilter === 'all' && !showAll ? 6 : portfolioItems.length) // Limit items for 'All' category
                             .map((item, index) => (
                                 <div
                                     key={index}
@@ -296,6 +299,20 @@ const TabiWilsonPortfolio = () => {
                                 </div>
                             ))}
                     </div>
+                    {activeFilter === 'all' && portfolioItems.length > 6 && (
+                        <div className="text-center mt-8">
+                            <button
+                                onClick={() => setShowAll(!showAll)}
+                                className={`px-6 py-2 text-sm tracking-wider transition-all duration-200 ${
+                                    isDarkMode
+                                        ? 'bg-gray-700 text-white hover:bg-gray-600'
+                                        : 'bg-gray-900 text-white hover:bg-gray-800'
+                                }`}
+                            >
+                                {showAll ? 'Show Less' : 'Show More'}
+                            </button>
+                        </div>
+                    )}
                 </div>
             </section>
 
