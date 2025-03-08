@@ -2,7 +2,7 @@
 # TabiWilson Photography Portfolio
 
 A modern, responsive photography portfolio website built with Next.js and TailwindCSS.
-
+[![Website](https://img.shields.io/badge/Website-green.svg)](https://tabithawilson.replit.app/)
 ![Demo of the TabiWilson Photography Portfolio](docs/demo.gif)
 
 ## Overview
