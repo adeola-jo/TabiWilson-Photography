@@ -454,14 +454,14 @@ const TabiWilsonPortfolio = () => {
                             >
                                 <p>
                                     With over a decade of experience behind the
-                                    lens, I've developed a distinctive style
+                                    lens, I&apos;ve developed a distinctive style
                                     that combines classic elegance with modern
                                     creativity. My approach to photography is
                                     deeply personal, focusing on capturing
                                     authentic moments and genuine emotions.
                                 </p>
                                 <p>
-                                    Whether I'm photographing a intimate
+                                    Whether I&apos;m photographing a intimate
                                     wedding, creating powerful portraits, or
                                     working on commercial projects, my goal
                                     remains the same: to create timeless images
