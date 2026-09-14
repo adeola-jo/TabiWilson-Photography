@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "targets": {
+    "/": {
+      "targetKind": "existing-ui",
+      "projectId": "4df78a83-660e-4ae6-80b3-19be846830b0",
+      "baselineDraftId": "50ae77f2-fbf3-47a3-be3d-83c6a842d205",
+      "activeDraftId": "50ae77f2-fbf3-47a3-be3d-83c6a842d205",
+      "designSystemPath": ".superdesign/design-system.md",
+      "contextFiles": [
+        ".superdesign/design-system.md",
+        "app/page.js",
+        "app/layout.js",
+        "components/TabiWilsonPortfolio.js",
+        "app/globals.css",
+        "tailwind.config.js"
+      ],
+      "fingerprints": {
+        ".superdesign/design-system.md": "fb066036697dcad4bc812918d07d317e99654949f4a1563f9dd5fd6bddbf33d6",
+        "app/page.js": "61dbcc21acc7164e511317acc0b075266dda041c417cbd54377004e42554f60b",
+        "app/layout.js": "1ea39734ac82bf0856f352c2a26e53ebe4c15005335da5f02a1058119eccfd86",
+        "components/TabiWilsonPortfolio.js": "c7e172eb13a90694f6bfb66758709bfcd48627d644e5694f211cc54c29950ee7",
+        "app/globals.css": "186419c47e46d1688974fe6d1d4688d7234f1790113a0c1e933526b522c9a04c",
+        "tailwind.config.js": "5043fffb5c49e3122ad0b13f5302c898b88a67eebfab604090211c467ce7023e"
+      },
+      "components": [],
+      "drafts": {
+        "50ae77f2-fbf3-47a3-be3d-83c6a842d205": {
+          "title": "TabiWilson Redesign",
+          "visualDirection": "warm paper and olive editorial photography; original baseline retained as version 1; implementation awaiting user approval",
+          "currentVersion": 3
+        }
+      },
+      "updatedAt": "2026-09-14T19:20:10.123135+00:00"
+    }
+  }
+}

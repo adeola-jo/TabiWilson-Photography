@@ -34,3 +34,7 @@ A contemporary editorial portfolio: warm paper background, near-black text, mute
 ## Validation after implementation
 
 Production build and standalone lint; desktop/mobile layout and overflow; navigation keyboard access; lightbox open/close/previous/next and focus restoration; gallery filtering; real Instagram URL; contact validation and honest delivery state; image loading; no browser errors; deployed asset paths; preview noindex retained.
+
+## Reviewable draft
+
+[Editorial redesign](https://p.superdesign.dev/draft/50ae77f2-fbf3-47a3-be3d-83c6a842d205) — version 3, awaiting approval before implementation. The confirmed Instagram link is already live on the existing GitHub Pages preview.
