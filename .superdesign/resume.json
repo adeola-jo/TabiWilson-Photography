@@ -12,26 +12,32 @@
         "app/page.js",
         "app/layout.js",
         "components/TabiWilsonPortfolio.js",
+        "components/SiteHeader.js",
+        "components/PhotoGallery.js",
+        "lib/portfolio.js",
         "app/globals.css",
         "tailwind.config.js"
       ],
       "fingerprints": {
         ".superdesign/design-system.md": "fb066036697dcad4bc812918d07d317e99654949f4a1563f9dd5fd6bddbf33d6",
         "app/page.js": "61dbcc21acc7164e511317acc0b075266dda041c417cbd54377004e42554f60b",
-        "app/layout.js": "1ea39734ac82bf0856f352c2a26e53ebe4c15005335da5f02a1058119eccfd86",
-        "components/TabiWilsonPortfolio.js": "c7e172eb13a90694f6bfb66758709bfcd48627d644e5694f211cc54c29950ee7",
-        "app/globals.css": "186419c47e46d1688974fe6d1d4688d7234f1790113a0c1e933526b522c9a04c",
+        "app/layout.js": "83ea2c3e34766a11de51e881ff402b93e4d34b2232a3744e4b23fbf265dcee39",
+        "components/TabiWilsonPortfolio.js": "8e683c5bb369e36af28c7bc5f1d22bf77f1f6071771fb81ee616c31ecb33f359",
+        "components/SiteHeader.js": "9f4a85194a46c6839908a444f200f9ed305ff3530a6a3bcc77b9312049c6cf0e",
+        "components/PhotoGallery.js": "a071aa943948cdf10dfcc8b61f01a39fcb3047d4b91704eacf8e0a29dd947f28",
+        "lib/portfolio.js": "bba69480ff9245367edc910e3c66e7b9a6859b935abe76f509874db2cdbd423a",
+        "app/globals.css": "e860761ed53d2d7efdd6a73feb8a41c20c1606f310c96fc574862a1c9bdd550e",
         "tailwind.config.js": "5043fffb5c49e3122ad0b13f5302c898b88a67eebfab604090211c467ce7023e"
       },
       "components": [],
       "drafts": {
         "50ae77f2-fbf3-47a3-be3d-83c6a842d205": {
           "title": "TabiWilson Redesign",
-          "visualDirection": "warm paper and olive editorial photography; original baseline retained as version 1; implementation awaiting user approval",
+          "visualDirection": "User-approved warm-paper editorial design, implemented with functional gallery, responsive navigation and Instagram enquiries. Baseline retained as version 1.",
           "currentVersion": 3
         }
       },
-      "updatedAt": "2026-09-14T19:20:10.123135+00:00"
+      "updatedAt": "2026-09-14T19:49:08.517953+00:00"
     }
   }
 }

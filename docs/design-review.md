@@ -37,4 +37,4 @@ Production build and standalone lint; desktop/mobile layout and overflow; naviga
 
 ## Reviewable draft
 
-[Editorial redesign](https://p.superdesign.dev/draft/50ae77f2-fbf3-47a3-be3d-83c6a842d205) — version 3, awaiting approval before implementation. The confirmed Instagram link is already live on the existing GitHub Pages preview.
+[Editorial redesign](https://p.superdesign.dev/draft/50ae77f2-fbf3-47a3-be3d-83c6a842d205) — version 3, approved by the user and implemented on development-preview. The implementation adds real gallery filters, photo-viewer keyboard controls, mobile navigation and confirmed Instagram enquiries.

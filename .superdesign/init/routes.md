@@ -1,5 +1,5 @@
 # Routes
-`/` → app/page.js → TabiWilsonPortfolio. Layout: app/layout.js. Anchor sections: home, portfolio, about, services, contact. GitHub Pages uses /TabiWilson-Photography basePath.
+`/` renders app/page.js and TabiWilsonPortfolio under app/layout.js. Anchors: home, work, approach, commissions, contact. Preview base path: /TabiWilson-Photography.
 ## app/page.js
 ```
 import TabiWilsonPortfolio from '@/components/TabiWilsonPortfolio';
