@@ -670,7 +670,10 @@ const TabiWilsonPortfolio = () => {
                                 </h3>
                                 <div className="flex space-x-4">
                                     <a
-                                        href="#"
+                                        href="https://www.instagram.com/wlsnarchives/"
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        aria-label="Follow @wlsnarchives on Instagram (opens in a new tab)"
                                         className={`${
                                             isDarkMode
                                                 ? "text-gray-400 hover:text-white"
