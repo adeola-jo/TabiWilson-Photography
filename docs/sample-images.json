@@ -64,5 +64,149 @@
     "source": "https://images.unsplash.com/photo-1519741497674-611481863552?fm=webp&fit=max&w=640&q=75",
     "purpose": "Responsive layout sample, not client work",
     "bytes": 29408
+  },
+  {
+    "file": "public/images/city-colour.webp",
+    "source": "https://images.unsplash.com/photo-1512361436605-a484bdb34b5f?fm=webp&fit=max&w=1280&q=75",
+    "source_page": "https://unsplash.com/photos/J1jYLLlRpA4",
+    "photographer": "Etty Fidele",
+    "license": "https://unsplash.com/license",
+    "purpose": "Stock photograph for layout review, not client work",
+    "bytes": 108434
+  },
+  {
+    "file": "public/images/city-colour-small.webp",
+    "source": "https://images.unsplash.com/photo-1512361436605-a484bdb34b5f?fm=webp&fit=max&w=640&q=75",
+    "source_page": "https://unsplash.com/photos/J1jYLLlRpA4",
+    "photographer": "Etty Fidele",
+    "license": "https://unsplash.com/license",
+    "purpose": "Stock photograph for layout review, not client work",
+    "bytes": 44550
+  },
+  {
+    "file": "public/images/colour-study.webp",
+    "source": "https://images.unsplash.com/photo-1531123897727-8f129e1688ce?fm=webp&fit=max&w=1280&q=75",
+    "source_page": "https://unsplash.com/photos/J1OScm_uHUQ",
+    "photographer": "Prince Akachi",
+    "license": "https://unsplash.com/license",
+    "purpose": "Stock photograph for layout review, not client work",
+    "bytes": 315384
+  },
+  {
+    "file": "public/images/colour-study-small.webp",
+    "source": "https://images.unsplash.com/photo-1531123897727-8f129e1688ce?fm=webp&fit=max&w=640&q=75",
+    "source_page": "https://unsplash.com/photos/J1OScm_uHUQ",
+    "photographer": "Prince Akachi",
+    "license": "https://unsplash.com/license",
+    "purpose": "Stock photograph for layout review, not client work",
+    "bytes": 105102
+  },
+  {
+    "file": "public/images/quiet-profile.webp",
+    "source": "https://images.unsplash.com/photo-1539701938214-0d9736e1c16b?fm=webp&fit=max&w=1280&q=75",
+    "source_page": "https://unsplash.com/photos/FjvXUeYf1AA",
+    "photographer": "Jessica Felicio",
+    "license": "https://unsplash.com/license",
+    "purpose": "Stock photograph for layout review, not client work",
+    "bytes": 58126
+  },
+  {
+    "file": "public/images/quiet-profile-small.webp",
+    "source": "https://images.unsplash.com/photo-1539701938214-0d9736e1c16b?fm=webp&fit=max&w=640&q=75",
+    "source_page": "https://unsplash.com/photos/FjvXUeYf1AA",
+    "photographer": "Jessica Felicio",
+    "license": "https://unsplash.com/license",
+    "purpose": "Stock photograph for layout review, not client work",
+    "bytes": 20390
+  },
+  {
+    "file": "public/images/golden-details.webp",
+    "source": "https://images.unsplash.com/photo-1606800052052-a08af7148866?fm=webp&fit=max&w=1280&q=75",
+    "source_page": "https://unsplash.com/photos/8vaQKYnawHw",
+    "photographer": "Sandy Millar",
+    "license": "https://unsplash.com/license",
+    "purpose": "Stock photograph for layout review, not client work",
+    "bytes": 117248
+  },
+  {
+    "file": "public/images/golden-details-small.webp",
+    "source": "https://images.unsplash.com/photo-1606800052052-a08af7148866?fm=webp&fit=max&w=640&q=75",
+    "source_page": "https://unsplash.com/photos/8vaQKYnawHw",
+    "photographer": "Sandy Millar",
+    "license": "https://unsplash.com/license",
+    "purpose": "Stock photograph for layout review, not client work",
+    "bytes": 38712
+  },
+  {
+    "file": "public/images/rings-and-roses.webp",
+    "source": "https://images.unsplash.com/photo-1515934751635-c81c6bc9a2d8?fm=webp&fit=max&w=1280&q=75",
+    "source_page": "https://unsplash.com/photos/M2T1j-6Fn8w",
+    "photographer": "Beatriz Pérez Moya",
+    "license": "https://unsplash.com/license",
+    "purpose": "Stock photograph for layout review, not client work",
+    "bytes": 116702
+  },
+  {
+    "file": "public/images/rings-and-roses-small.webp",
+    "source": "https://images.unsplash.com/photo-1515934751635-c81c6bc9a2d8?fm=webp&fit=max&w=640&q=75",
+    "source_page": "https://unsplash.com/photos/M2T1j-6Fn8w",
+    "photographer": "Beatriz Pérez Moya",
+    "license": "https://unsplash.com/license",
+    "purpose": "Stock photograph for layout review, not client work",
+    "bytes": 47120
+  },
+  {
+    "file": "public/images/golden-profile.webp",
+    "source": "https://images.unsplash.com/photo-1527203561188-dae1bc1a417f?fm=webp&fit=max&w=1280&q=75",
+    "source_page": "https://unsplash.com/photos/QS9ZX5UnS14",
+    "photographer": "Jessica Felicio",
+    "license": "https://unsplash.com/license",
+    "purpose": "Stock photograph for layout review, not client work",
+    "bytes": 159686
+  },
+  {
+    "file": "public/images/golden-profile-small.webp",
+    "source": "https://images.unsplash.com/photo-1527203561188-dae1bc1a417f?fm=webp&fit=max&w=640&q=75",
+    "source_page": "https://unsplash.com/photos/QS9ZX5UnS14",
+    "photographer": "Jessica Felicio",
+    "license": "https://unsplash.com/license",
+    "purpose": "Stock photograph for layout review, not client work",
+    "bytes": 43560
+  },
+  {
+    "file": "public/images/beneath-the-veil.webp",
+    "source": "https://images.unsplash.com/photo-1606216794079-73f85bbd57d5?fm=webp&fit=max&w=1280&q=75",
+    "source_page": "https://unsplash.com/photos/mLIurLmSRAY",
+    "photographer": "Jakob Owens",
+    "license": "https://unsplash.com/license",
+    "purpose": "Stock photograph for layout review, not client work",
+    "bytes": 262670
+  },
+  {
+    "file": "public/images/beneath-the-veil-small.webp",
+    "source": "https://images.unsplash.com/photo-1606216794079-73f85bbd57d5?fm=webp&fit=max&w=640&q=75",
+    "source_page": "https://unsplash.com/photos/mLIurLmSRAY",
+    "photographer": "Jakob Owens",
+    "license": "https://unsplash.com/license",
+    "purpose": "Stock photograph for layout review, not client work",
+    "bytes": 44124
+  },
+  {
+    "file": "public/images/just-married.webp",
+    "source": "https://images.unsplash.com/photo-1583939003579-730e3918a45a?fm=webp&fit=max&w=1280&q=75",
+    "source_page": "https://unsplash.com/photos/dvF6s1H1x68",
+    "photographer": "Leonardo Miranda",
+    "license": "https://unsplash.com/license",
+    "purpose": "Stock photograph for layout review, not client work",
+    "bytes": 681874
+  },
+  {
+    "file": "public/images/just-married-small.webp",
+    "source": "https://images.unsplash.com/photo-1583939003579-730e3918a45a?fm=webp&fit=max&w=640&q=75",
+    "source_page": "https://unsplash.com/photos/dvF6s1H1x68",
+    "photographer": "Leonardo Miranda",
+    "license": "https://unsplash.com/license",
+    "purpose": "Stock photograph for layout review, not client work",
+    "bytes": 201984
   }
 ]

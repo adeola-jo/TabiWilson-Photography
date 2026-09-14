@@ -13,3 +13,10 @@ Validated the static GitHub Pages build on 14 September 2026.
 - Desktop, gallery and mobile screenshots were visually inspected.
 
 Photographs remain explicitly labelled samples. Real portfolio assets and final business details still need client confirmation.
+
+## Stock gallery expansion — 14 September 2026
+
+- Added eight stock photographs with photographer credits in `stock-photo-credits.md`; the gallery now has 12 images (six portraits and six stories).
+- The production build and ESLint passed.
+- Browser checks verified all 12 full-size images, all 12 mobile variants, category counts, fullscreen next/previous wrapping and no browser or asset errors.
+- No horizontal overflow at 320, 390, 768 or 1440px; desktop and mobile crops were visually inspected.
